@@ -25,12 +25,6 @@ img {
   width: auto;
   height: 16em;
   display: block;
-  outline: 2px solid blue;
-}
-
-.homepage li {
-  text-align: center;
-  outline: 3px solid red;
 }
 
 .homepage h1,
@@ -43,8 +37,16 @@ img {
   font-size: 1.2em;
 }
 
-.homepage div {
+#container div {
   display: inline-block;
   padding: 0.5em;
-  outline: 3px solid pink;
+}
+
+#container {
+  text-align: center;
+}
+
+div p {
+  width: min-content;
+  min-width: 100%;
 }
