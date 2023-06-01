@@ -1,3 +1,16 @@
+html {
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    328deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(117, 168, 198, 1) 65%,
+    rgba(39, 121, 167, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body {
   font-size: 22px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -5,11 +18,12 @@ body {
 
 h1 {
   text-align: center;
+  font-style: italic;
 }
 
 li img {
   width: auto;
-  height: 10em;
+  height: 11em;
   display: block;
 }
 
@@ -19,6 +33,8 @@ li {
   text-align: center;
 }
 
+h1,
 a {
-  text-align: center;
+  font-weight: bold;
+  color: white;
 }
