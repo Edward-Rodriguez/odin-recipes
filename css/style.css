@@ -1,0 +1,24 @@
+body {
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+li img {
+  width: auto;
+  height: 10em;
+  display: block;
+}
+
+li {
+  display: inline-block;
+  padding: 0.5em;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+}
