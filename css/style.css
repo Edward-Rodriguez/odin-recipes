@@ -1,4 +1,14 @@
+/* For setting box-sizing to border-box 
+(context-bos is the default) 
+With border-box, any border padding added is accounted for in the values specified in an elements width and height*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 html {
+  box-sizing: border-box; /*set box-sizing to border-box*/
   height: 100%;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -14,7 +24,13 @@ html {
 body {
   font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 2em 2em 2em 2em;
+}
+.container {
+  width: 800px;
+  margin: 4rem auto;
+  padding: 4rem;
+  background-color: aliceblue;
+  line-height: 1.5;
 }
 
 #header {
@@ -42,10 +58,6 @@ img {
 .container div {
   display: inline-block;
   padding: 0.5em;
-}
-
-.container {
-  text-align: center;
 }
 
 div p.caption {
