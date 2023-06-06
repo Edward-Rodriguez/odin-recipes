@@ -34,30 +34,33 @@ body {
 }
 
 #header {
-  text-align: center;
   font-family: "Lucida Handwriting", cursive;
   font-size: 48px;
+  text-align: center;
+  color: aliceblue;
 }
 
 img {
   width: auto;
-  height: 16em;
+  height: 14em;
   display: block;
 }
 
 .homepage h1,
 .homepage a {
   font-weight: bold;
-  color: white;
 }
 
 .homepage a {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  text-decoration: none;
+  font-style: italic;
 }
 
 .container div {
   display: inline-block;
   padding: 0.5em;
+  text-align: center;
 }
 
 div p.caption {
