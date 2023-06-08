@@ -30,8 +30,7 @@ h1 {
 .container {
   margin: 0 auto;
   line-height: 1.5;
-  text-align: center;
-  padding: 1rem;
+  max-width: 60rem;
 }
 
 #header {
@@ -42,10 +41,11 @@ h1 {
 }
 
 img {
-  width: auto;
-  height: 14em;
-  display: block;
+  width: 20rem;
+  height: auto;
+  display: inline-block;
   border-radius: 10px;
+  vertical-align: top;
 }
 
 .homepage h1,
@@ -60,21 +60,22 @@ img {
   color: #000;
 }
 
-.container div {
-  display: inline-block;
-  padding: 0.5em;
-  text-align: center;
-  margin: 12px 24px;
+.container > div {
+  margin: 12px 0;
   vertical-align: top;
+  width: 100%;
+  border: 2px solid #76323f;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.39);
   /* background-color: white; */
 }
 
+.recipe-content {
+  display: inline-block;
+  vertical-align: top;
+}
+
 div p.caption {
-  width: min-content;
-  min-width: 100%;
-  text-align: left;
-  font-weight: 500;
-  font-size: 24px;
 }
 
 #heading {
